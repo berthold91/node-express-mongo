@@ -6,8 +6,8 @@
 
 **Step1:** Create the repositories of your Project:
 
-   - create the ***github*** repository for your Project 
-   - create the ***gitlab*** repository for your Project
+   - create the ***github repository*** for your Project 
+   - create the ***gitlab repository*** repository for your Project
 
 **Step1:** Create a cloud Based Dev environment
 
@@ -25,3 +25,8 @@
    - open ***frontend/package.json*** and add your ***start script***:  `"start": "live-server src --verbose"`
    - run the frontend of your Application : run `npm start`
    - commit your code
+
+**Step2** Create the static Template for your site:
+
+for now i will not care that much about the design since it is a **javascript project** and not a design project
+   - move into ***index.html*** and create both a basic **basic header** and **basic footer** for your site

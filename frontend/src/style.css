@@ -1,0 +1,56 @@
+:root{
+    --navbar-bg-color: #121921;
+}
+body{
+    font-size: 62.5%;
+}
+
+a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 1.5rem);
+}
+main{
+    display: flex;
+    flex: 1;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--navbar-bg-color);
+    padding: 1rem 50px;
+}
+
+.site-brand{
+    font-size: 2rem;
+}
+.navbar-navs{
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar-navs a{
+    margin-left: 1rem;
+}
+
+.navbar-navs a:hover{
+    color: #f4a847;
+}
+
+/*
+* footer Design
+**/
+
+footer{
+    background-color: var(--navbar-bg-color);
+    padding: 0.75rem 0;
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.2rem;
+}
