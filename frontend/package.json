@@ -4,12 +4,15 @@
   "description": "frontend of my node-express-mongo ecommerce",
   "main": "index.js",
   "scripts": {
-    "start": "live-server src --verbose",
+    "start": "live-server public --verbose",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "live-server": "^1.2.2"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3"
   }
 }
