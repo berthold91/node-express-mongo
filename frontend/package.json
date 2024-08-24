@@ -4,7 +4,7 @@
   "description": "frontend of my node-express-mongo ecommerce",
   "main": "index.js",
   "scripts": {
-    "start": "live-server public --verbose",
+    "start": "live-server src --verbose",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
