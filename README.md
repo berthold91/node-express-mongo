@@ -14,7 +14,7 @@ In this project i will build an Ecommerce website using Javascript (ES6) for the
 - add the ***start script*** in package.json.. "start": "live-server src --verbose"
 - run your application using ***npm start***
 
-### Step2 - create the static home page
+### Step2 - add bootstrap and sass
 
 - we'll use **sass** and **bootstrap** to design our page
 - install the bootstrap package ***npm install bootstrap***
@@ -23,3 +23,7 @@ In this project i will build an Ecommerce website using Javascript (ES6) for the
 - start watching for style changes with sass ***sass --watch public/scss:public/css***
 - link your ***style.css*** file in ***index.html***
 - test if bootstrap load correctly
+
+### Step3 - create the static home page and design the product
+
+- move into index.html and design your site using bootstrap

@@ -1,0 +1,39 @@
+.carousel-item {
+    img{
+        max-height: 80vh;
+    }
+    .custom-carousel-content{
+        width: 50%;
+        transform: translate(0%, -10%);
+        text-align: start;
+    
+        h1{
+            font-size: 40px;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 30px;
+    
+            span{
+                color: #fbff00;
+            }
+        }
+    
+        p{
+            font-size: 18px;
+            font-weight: 400;
+            color: #fff;
+            margin-bottom: 30px;
+        }
+    
+        .btn-slider{
+            border: 1px solid #fff;
+            border-radius: 0px;
+            padding: 8px 26px;
+            color: #fff;
+            font-size: 18px;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+        }
+    }
+}
+
