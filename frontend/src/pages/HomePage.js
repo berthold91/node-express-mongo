@@ -2,10 +2,17 @@ import data from "../data.js";
 const HomePage = {
     render: () => {
         const { products } = data;
-        return (`<ul class="d-flex justify-content-between align-items-center mr-auto flex-wrap">
+        return (`
+            <div class="py-3 py-md-5 bg-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h4 class="mb-4">Our Products</h4>
+                    </div>
+            <ul class=" list-unstyled d-flex justify-content-between align-items-center mr-auto flex-wrap ">
             ${ products.map( (product) => (
                 `
-                <div class="col-md-4">
+                <li class="col-md-3">
                 <div class="product-card">
                             <div class="product-card-img">
                                 <label class="stock bg-success">${product.countInStock && product.countInStock > 0 ?
@@ -30,10 +37,14 @@ const HomePage = {
                                 </div>
                             </div>
                         </div>
-                        </div>
+                        </li>
                 `
-            )) }
-            </ul>`);
+            )).join("") }
+               </ul>
+              </div>
+            </div>
+        </div>
+            `);
     }
 };
 export default HomePage;
